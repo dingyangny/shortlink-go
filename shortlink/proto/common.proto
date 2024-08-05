@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package trpc.dingyangny.common;
+
+option go_package = "github.com/dingyangny/trpcproto/common";
+
+message CommonReq {
+
+}
+
+message CommonRsp {
+    int32 code = 1;
+    string msg = 2;
+    string trace_id = 3;
+}
