@@ -2,9 +2,9 @@ syntax = "proto3";
 
 package trpc.dingyangny.shortlink;
 
-option go_package = "github.com/dingyangny/trpcproto/shortlink";
+option go_package = "github.com/dingyangny/shortlink-go/shortlink/proto";
 
-import "shortlink/proto/common.proto";
+import "shortlink/proto/common/common.proto";
 
 service Shortlink {
     rpc Health (common.CommonReq) returns(common.CommonRsp);

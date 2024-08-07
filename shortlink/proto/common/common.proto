@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package trpc.dingyangny.common;
 
-option go_package = "github.com/dingyangny/trpcproto/common";
+option go_package = "github.com/dingyangny/shortlink-go/shortlink/proto/common";
 
 message CommonReq {
 
